@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Techinc</string>
+    
+    <string name="notify_open">De ruimte is geopend</string>
+    <string name="notify_closed">De ruimte is momenteel gesloten</string>
+    
+    <string name="pref_update_freq">Update Frequency (seconden)</string>
+    <string name="pref_update_url">Update URL</string>
+    
+    <string name="pref_notify_vibrate">Trillen wanneer het open is</string>
+    <string name="pref_reset">Reset</string>
+    
+    <string name="pref_open_url">Ga naar URL</string>
+    <string name="pref_apply">Toepassen</string>
+    <string name="pref_notify_sound">Houd geluid</string>
+    <string name="pref_boot_start">Begin bij boot tijd</string>
+    <string name="button_start_service">Starten</string>
+    <string name="button_stop_service">Stop</string>
+    <string name="button_browse">...</string>
+    <string name="confirm_reset">Weet je zeker dat je echter ook weer Zet alle instellingen op standaard?</string>
+    <string name="confirm_yes">Ja zeker, blazen ze weg.</string>
+    <string name="confirm_no">Shit nee!!</string>
+    
+    
+ 
+    
+    
+
+</resources>

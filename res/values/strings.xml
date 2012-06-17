@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Techinc</string>
+    
+    <string name="notify_open">The space is currently open</string>
+    <string name="notify_closed">The space is now closed</string>
+    
+    <string name="pref_update_freq">Update Frequency (Seconds)</string>
+    <string name="pref_update_url">Update URL</string>
+    <string name="pref_notify_vibrate">Vibrate when open</string>
+    <string name="pref_reset">Reset</string>
+    
+    <string name="pref_open_url">Browse to URL</string>
+    <string name="pref_apply">Apply</string><string name="pref_notify_sound">Notify sound</string>
+    <string name="pref_boot_start">Start at boot time</string><string name="button_start_service">Start</string>
+    <string name="button_stop_service">Stop</string>
+    <string name="button_browse">...</string>
+    <string name="confirm_reset">Are you sure you wish to reset ALL the settings back to default?</string>
+    <string name="confirm_yes">Yes sure, blow them away.</string>
+    <string name="confirm_no">Shit no!!</string>
+    
+    
+ 
+    
+    
+
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/label_open_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pref_open_url" />
+    
+    
+    <EditText
+        android:id="@+id/open_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_open_url"
+        android:inputType="textUri"
+        android:singleLine="true" />
+
+    
+    <CheckBox 
+        android:id="@+id/boot_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_url"
+        android:text="@string/pref_boot_start"
+        />
+    
+    <CheckBox
+        android:id="@+id/vibrate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boot_start"
+        android:text="@string/pref_notify_vibrate" />
+ 
+
+    <TextView
+        android:id="@+id/label_pref_notify_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vibrate"
+        android:text="@string/pref_notify_sound" />
+
+
+    <EditText
+        android:id="@+id/notify_sound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_pref_notify_sound"
+        android:layout_toLeftOf="@+id/butn_browse_sound"
+        android:inputType="text"
+        android:singleLine="true" />
+    
+
+    <Button 
+        android:id="@+id/butn_browse_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_pref_notify_sound"
+        android:text="@string/button_browse"
+        />
+
+
+    
+    <TextView
+        android:id="@+id/label_pref_update_freq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notify_sound"
+        android:text="@string/pref_update_freq" />
+
+    <EditText
+        android:id="@+id/update_freq"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/label_pref_update_freq"
+        android:layout_below="@+id/notify_sound"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    
+        
+    <TextView
+        android:id="@+id/label_update_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_freq"
+        android:text="@string/pref_update_url" />
+
+    <EditText
+        android:id="@+id/update_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_update_url"
+        android:inputType="textUri"
+        android:singleLine="true" />
+
+    
+    
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_start_service" />
+    
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/start"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_stop_service" />
+    
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/pref_reset" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/reset"
+        android:layout_alignParentBottom="true"
+        android:text="@string/pref_apply" />
+
+</RelativeLayout>
