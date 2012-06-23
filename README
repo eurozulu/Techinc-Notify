@@ -5,3 +5,28 @@ The space broadcasts its current status in terms of open and closed.
 When this status changes, the notification app will place a notification on the Android status bar.
 
 
+The compiled binary is available under the /bin directory as:
+Hackerspace.apk
+
+Download this and install it on your device.
+
+
+Basic useage:
+The initial page shows the settings for the app.  How often it polls, what sound to notify etc.
+
+There are four buttons on this page:
+
+Start   Starts the notification service.  The service will continue to run until it is stopped.
+Stop    Stops the notification service.
+
+Reset   Resets all you settings back to default.
+Apply   Applies any changes to your settings.
+
+
+Known issues:
+
+The vibrate is not yet implemented.
+Doesn't always stop when requested to do so.
+(The service is run using Android Alarms, each poll is scheduled to start the service automatically after the last poll.
+The stop button de-schedules the Alarm, however it appears there is a concurrency issue, in that the service will re-schedule itself
+if it is currently running when requested to stop.)
