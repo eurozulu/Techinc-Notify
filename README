@@ -6,12 +6,12 @@ When this status changes, the notification app will place a notification on the 
 
 
 The compiled binary is available under the /bin directory as:
-Hackerspace.apk
+Techinc-Notify.apk
 
 Download this and install it on your device.
 
 
-Basic useage:
+Basic usage:
 The initial page shows the settings for the app.  How often it polls, what sound to notify etc.
 
 There are four buttons on this page:
